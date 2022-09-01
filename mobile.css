@@ -1,0 +1,45 @@
+@media screen and (max-width: 1120px){
+    .main{
+    display: block; 
+    width: 90%;
+    height: 100%;
+    margin: 25px auto;
+    
+}
+.content-holder{
+    flex-direction: column;
+    border-right: none;
+    /* padding: 40px 0 25px 0; */
+
+    /* padding: 15px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center; */
+}
+.headd{
+    display: none;
+}
+.mobile{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 25px 0;
+    font-weight: 100;
+}
+  .btn{
+    font-size: 25px;
+    width: 350px;
+  }  
+  .first-button{
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .price-box{
+    flex-direction: column;
+    padding: 10px 0 25px 0;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+}
